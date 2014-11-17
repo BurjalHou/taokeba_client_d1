@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_refresher"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout 
+        android:layout_height="match_parent"
+    	android:layout_width="wrap_content"
+    	android:orientation="vertical">
+    
+	    <ListView
+	        android:id="@+id/message_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+	    
+	    <TextView 
+	        android:id="@+id/message_list_empty"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	       	android:textAlignment="center"
+	       	android:textSize="32sp"
+	       	android:textColor="@android:color/darker_gray"
+	        android:text="没有新消息"/>
+   
+	
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

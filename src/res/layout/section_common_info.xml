@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:rowCount="12" 
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="课程编号"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size" />
+
+    <TextView
+        android:id="@+id/section_course_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="课程名称"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="开课学期"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="开课学院"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="主讲教师"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_instructor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="课程评分"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="平均成绩"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_avg_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="详细分布"
+        android:textSize="@dimen/card_text_title_size" 
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="学分"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="课程类型"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="上课时间"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="上课地点"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="课程描述"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+    <TextView
+        android:id="@+id/section_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/card_text_title_size"  />
+
+</GridLayout>

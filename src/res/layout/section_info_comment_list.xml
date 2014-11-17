@@ -1,0 +1,43 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/section_info_comment_refresh"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+	
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+        
+	    <ListView
+	        android:id="@+id/section_info_comment_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+        
+	    <LinearLayout 
+	        android:layout_alignParentBottom="true"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@android:color/white">
+	        
+	        <EditText 
+	            android:id="@+id/et_add_comment"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+	            android:hint="@string/hint_add_comment_to_section"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_add_comment"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:background="@android:drawable/ic_menu_send"/>
+	        
+    </LinearLayout>
+	    
+    </RelativeLayout>
+
+    
+</android.support.v4.widget.SwipeRefreshLayout>

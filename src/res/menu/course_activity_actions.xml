@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_add_section"
+        android:title="@string/add_course"
+        android:icon="@drawable/content_new"
+        android:showAsAction="always" />
+    
+    <item android:id="@+id/action_interest"
+        android:title="@string/interest_course"
+        android:icon="@drawable/ic_interest"
+        android:showAsAction="always"/>
+    
+</menu>

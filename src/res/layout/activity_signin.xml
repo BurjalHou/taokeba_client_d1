@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/signin_portrait"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/sign_in_top_margin"/>
+
+    <EditText
+        android:id="@+id/signin_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_below="@id/signin_portrait"
+        android:inputType="number"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="@string/sign_in_user_name_hint"
+        android:drawableLeft="@drawable/ic_person"/>
+
+    <EditText
+        android:id="@+id/signin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_below="@id/signin_user_id"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:inputType="textPassword"
+        android:hint="@string/sign_in_password_hint"
+        android:drawableLeft="@drawable/ic_access_secure"/>
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/signin_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/sign_in_button"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array">
+        <item>@string/drawer_item_course</item>
+        <item>@string/drawer_item_home</item>        
+        <item>@string/drawer_item_rank</item>
+        <item>@string/drawer_item_interest</item>
+        <item>@string/drawer_item_community</item>
+        <item>@string/drawer_item_message</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">淘课吧</string>
+    <string name="app_version">v0.0.2</string>
+	
+	<!-- user main information page -->
+	<string name="sign_out">登出</string>
+	<string name="refresh_complete">刷新完成</string>	
+    <string name="click_twice_to_quit">再次点击返回键退出:(</string>
+    
+    <!--Sign In -->
+    <string name="title_activity_sign_in">登录</string>
+    <string name="sign_in_user_name_hint">请输入学号</string>
+    <string name="sign_in_password_hint">请输入密码</string>
+    <string name="sign_in_information_complete">请输入用户名或密码</string>
+    <string name="sign_in_button">登录</string>
+    <string name="sign_in_remember">记住密码</string>
+    <string name="sign_in_auto">自动登录</string>
+    <string name="sign_in_regist">注册</string>
+    <string name="sign_in_log_in">正在登录</string>
+    <string name="sign_in_error">用户名或密码错误:(</string>
+    <string name="sign_in_network">网络错误:(</string>
+    <string name="sign_in_wrong_status">该帐号未激活，请激活后再次登陆:(</string>
+    
+    
+    <!--Regist page-->
+    <string name="regist_title">注册</string>
+    <string name="regist_student_num">学号</string>
+    <string name="regist_nickname">昵称</string>
+    <string name="regist_name">姓名</string>
+    <string name="regist_qq">QQ</string>
+    <string name="review">预览</string>
+    <string name="regist_next">下一步</string>
+    <string name="regist_prev">上一步</string>
+    <string name="regist_password">密码</string>
+    <string name="regist_password_again">确认密码</string>
+    <string name="regist_student_type">学生类型</string>
+    <string name="regist_school">学院</string>
+    <string name="regist_major">专业</string>
+    <string name="regist_class">班级</string>
+    <string name="regist_start_date">入学时间</string>
+    <string name="regist_end_date">毕业时间</string>
+    <string name="finish">提交</string>
+    <string name="submit_confirm_message">Place the order with the deli? You will receive an email
+        confirmation.</string>
+    <string name="submit_confirm_button">Place order</string>
+    <string name="regist_information_uncomplete">请检查输入！</string>
+    <string name="regist_password_repeat_wrong">两次密码输入有误！</string>
+    <string name="regist_password_length_wrong">密码长度不得小于6位！</string>
+    <string name="sign_in_regist_in">正在注册</string>
+    <string name="regist_success">注册成功:)</string>
+    <string name="regist_false">注册失败:(</string>
+    <string name="regist_error">注册失败:(</string>
+    <string name="regist_network">网络错误:(</string>
+    
+
+    <!--actionbar and left navigation-->
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="action_about">关于</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_item_home">首页</string>
+    <string name="drawer_item_course">我的课程</string>
+    <string name="drawer_item_rank">课程排行</string>
+    <string name="drawer_item_interest">关注的课程</string>
+    <string name="drawer_item_community">社区</string>
+    <string name="drawer_item_message">消息</string>
+    <string name="action_search_hint">查找课程</string>
+
+    <!--main page-->
+    <string name="home_view_pager_title_main">首页</string>
+    <string name="home_view_pager_title_answer">最新提问课程</string>
+    <string name="home_view_pager_title_comment">最新评论课程</string>
+    <string name="home_recommend_title">为您推荐</string>
+
+    <!--rank page-->
+    <string name="rank_view_pager_title_rate">按评分</string>
+    <string name="rank_view_pager_title_comment">按评论数</string>
+    <string name="rank_view_pager_title_mark">按平均分</string>
+    <string name="add_section_success">选课成功:)</string>
+    <string name="add_section_exist">已选该课程:)</string>
+    <string name="add_section_false">选课失败:(</string>
+    
+
+    <!--section page  -->
+    <string name="section_info_title">基本信息</string>
+    <string name="section_info_courseware">课件</string>
+    <string name="section_comment_title">评论</string>
+    <string name="section_question_title">问答</string>
+    <string name="hint_add_comment_to_section">添加评论</string>
+    <string name="add_comment_success">添加评论成功:)</string>
+    <string name="add_comment_out_range">添加评论失败,该课程评论通道已关闭:(</string>
+    <string name="add_comment_false">添加评论失败:(</string>
+    <string name="add_comment_can_not_null">评论内容不能为空:(</string>
+    
+    <!-- add interest page  -->
+    <string name="add_interest_success">添加收藏成功:)</string>
+    <string name="add_interest_exist">课程已经收藏</string>
+    <string name="add_interest_false">添加收藏失败:(</string>
+    
+    <!--message page-->
+    <string name="message_label">消息</string>
+
+    <!--setting page-->
+    <string name="setting_label">设置</string>
+
+    <!--about page-->
+    <string name="about_label">关于</string>
+
+    <!--course page-->
+    <string name="add_course">添加课程</string>
+	<string name="interest_course">关注课程</string>
+	<string name="delete_course_title">删除该课程</string>
+	<string name="delete_course_success">课程已删除</string>
+	
+	
+	<!-- community page -->
+	<string name="community_view_pager_title_answer">最新提问</string>
+	<string name="community_view_pager_title_ask">我的问题</string>
+	<string name="question_can_not_null">提问内容不能为空:(</string>
+	<string name="add_question_success">添加提问成功:)</string>
+	<string name="add_question_false">添加提问失败:(</string>
+	<string name="hint_add_my_question">我要提问</string>
+	
+	<!-- search page -->
+	<string name="search_title">搜索结果</string>
+	
+	
+	<!-- question activity -->
+	<string name="hint_add_answer_to_homequestion">我来回复</string>
+	<string name="complete_answer_content">回复不能为空:(</string>
+	<string name="add_answer_success">添加回复成功:)</string>
+	<string name="add_answer_false">添加回复失败:(</string>
+	
+</resources>

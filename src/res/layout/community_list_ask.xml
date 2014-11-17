@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/community_ask_refresh"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+	
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+        
+	    <ListView
+	        android:id="@+id/community_ask_list_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+        
+	     <LinearLayout 
+	        android:layout_alignParentBottom="true"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        >
+	        
+	        <EditText 
+	            android:id="@+id/et_add_question"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+	            android:hint="@string/hint_add_my_question"/>
+	        
+	        <Button 
+	            android:id="@+id/btn_add_question"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:background="@android:drawable/ic_menu_send"/>
+	        
+    	</LinearLayout>
+	    
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+

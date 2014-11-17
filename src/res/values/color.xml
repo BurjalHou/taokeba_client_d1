@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#E5E5E5</color>
+    <color name="theme_color">#33B5E5</color>
+    <color name="action_bar_background">#33B5E5</color>
+    <color name="view_pager_indicator">#33B5E5</color>
+    <color name="action_bar_item_press">#0099CC</color>
+    <color name="drawer_list_item_press">#A8DFF4</color>
+    <color name="drawer_list_item_activated">#C5EAF8</color>
+    <color name="card_background_color">#FFFFFF</color>
+
+    <color name="step_pager_previous_tab_color">#4433b5e5</color>
+    <color name="step_pager_selected_tab_color">#ff0099cc</color>
+    <color name="step_pager_selected_last_tab_color">#ff669900</color>
+    <color name="step_pager_next_tab_color">#10000000</color>
+
+    <color name="review_green">#ff669900</color>
+
+    <color name="text_light">#66000000</color>
+</resources>

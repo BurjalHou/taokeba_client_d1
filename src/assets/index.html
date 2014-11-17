@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Hello World</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no" target-densitydpi="device-dpi"/>
+		<script type="text/javascript" src="script/jquery.min.js" ></script>
+		<script type="text/javascript" src="script/ichart.min.js" ></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var id; 
+				
+				var data = [
+		        	{name : '100-90',value : getANum(), color:'#a5c2d5'},
+		        	{name : '89-80',value : getBNum(), color:'#cbab4f'},
+		        	{name : '79-70',value : getCNum(), color:'#76a871'},
+		        	{name : '69-60',value : getDNum(), color:'#9f7961'},
+		        	{name : '<60',value : getENum(), color:'#a56f8f'},
+	        	];
+		        	
+				new iChart.Column2D({
+					render : 'canvasDiv',
+					data: data,
+					width : document.body.clientWidth,
+					animation : true,
+					shadow : true,
+					shadow_blur : true,
+					coordinate : {
+						background_color : '#fefefe',
+						scale:[{
+							 position : 'left',	
+							 start_scale : 0,
+							 end_scale : 40 ,
+							 scale_space : 5
+						}]
+					}
+				}).draw();
+				
+				function getSectionID() {
+					id = grade.getSectionID();
+					$('#canvasDiv').text(id);
+				}
+				
+				function getANum() {
+					//return grade.getANum();
+					return 5;
+				}
+				
+				function getBNum() {
+					//return grade.getBNum();
+					return 22;
+				}
+				
+				function getCNum() {
+					//return grade.getCNum();
+					return 17;
+				}
+				
+				function getDNum() {
+					//return grade.getDNum();
+					return 8;
+				}
+				
+				function getENum() {
+					//return grade.getENum();
+					return 1;
+				}
+				
+			});
+		</script>
+	</head>
+
+	<body>
+		
+		<h4>成绩分布</h4>
+		<div id="canvasDiv"></div>
+		
+	</body>
+</html>
